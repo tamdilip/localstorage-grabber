@@ -1,0 +1,27 @@
+{
+  "name": "localstorage-grabber",
+  "version": "1.0.0",
+  "description": "A minimal web app to grab localStorage available in a webpage",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ejs",
+    "html",
+    "rest",
+    "nodejs",
+    "express",
+    "puppeteer",
+    "angularjs",
+    "localStorage"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "puppeteer": "^13.0.1"
+  }
+}
