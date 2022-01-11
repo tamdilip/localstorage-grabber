@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 const express = require('express');
 
 const app = express();
-const SERVER_PORT = process.env.SERVER_PORT || 3000;
+const SERVER_PORT = process.env.PORT || 3000;
 const WORDLE_URL = 'https://www.powerlanguage.co.uk/wordle/';
 
 app.use(express.static('public'));
