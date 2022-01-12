@@ -15,7 +15,7 @@ app.use((req, res, next) => {
 const getLocalStorage = async (url) => {
     const browser = await puppeteer.launch({ args: ['--no-sandbox'] });
     const page = await browser.newPage();
-    await page.emulateTimezone('Asia/kolkata');
+    await page.emulateTimezone('Asia/Kolkata');
     await page.goto(url);
 
     const localStorageData = await page.evaluate(() => {
