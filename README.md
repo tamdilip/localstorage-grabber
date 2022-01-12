@@ -2,11 +2,11 @@
 
 [![Live demo](https://img.shields.io/badge/Heroku-Live%20demo-violet?style=flat-square&logo=heroku&logoColor=violet)](https://localstorage.herokuapp.com/)
 
-A very light weight web app to grab the localStorage available under a specific webpage url. 
+A very light weight web app utility to grab the localStorage available under a specific webpage url. 
 
 > Used `Puppeteer` to render the page on server side in a headless chrome browser to grab the localStorage items.
 
-> Also a common space to render miniml UI pages of specific personal/handy needs. Currently has - [Wordle of the day](https://localstorage.herokuapp.com/wordle) grabber.
+> Also a common space to render minimal UI pages of specific personal/handy needs. Currently has - [Wordle of the day](https://localstorage.herokuapp.com/wordle) grabber.
 
 
 ### Local setup
