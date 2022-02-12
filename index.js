@@ -48,7 +48,7 @@ app.get('/wordle', async (req, res) => {
     let letters = ['😞'];
     try {
         const localStorage = await getLocalStorage(WORDLE_URL);
-        letters = JSON.parse(localStorage.gameState).solution.split('');
+        letters = JSON.parse(localStorage['nyt-wordle-state']).solution.split('');
     } catch (error) {
         console.error(error.message);
     }
