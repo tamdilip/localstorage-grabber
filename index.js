@@ -3,7 +3,7 @@ const express = require('express');
 
 const app = express();
 const SERVER_PORT = process.env.PORT || 3000;
-const WORDLE_URL = 'https://www.powerlanguage.co.uk/wordle/';
+const WORDLE_URL = process.env.WORDLE_URL || 'https://www.nytimes.com/games/wordle/index.html';
 
 app.use(express.static('public'));
 app.set('view engine', 'ejs');
